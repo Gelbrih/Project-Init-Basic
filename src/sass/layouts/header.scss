@@ -1,0 +1,26 @@
+.header {
+	position: relative;
+	margin: 0 auto 2rem;
+
+	.container {
+		position: relative;
+		margin-top: 35px;
+		z-index: 9;
+
+		@include mq(sm) {
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: space-between;
+			align-items: center;
+		}
+	}
+}
+
+.header-tools {
+	display: none;
+
+	@include mq(md) {
+		display: block;
+		margin-left: 2rem;
+	}
+}

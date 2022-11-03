@@ -1,0 +1,24 @@
+.content-wrapper {
+	margin-bottom: 2rem;
+}
+
+.content {
+	overflow: auto;
+}
+
+section {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+
+	.section-title {
+		margin-bottom: 1.5rem;
+		font-family: $font-family-secondary;
+		text-align: center;
+		font-weight: 600;
+	}
+
+	.section-subtitle {
+		text-align: center;
+		font-weight: 400;
+	}
+}

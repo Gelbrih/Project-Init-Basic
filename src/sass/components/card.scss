@@ -1,0 +1,32 @@
+.cards {
+   display: flex;
+   flex-flow: column wrap;
+   align-items: center;
+   text-align: center;
+
+   @include mq(md) {
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: baseline;
+   }
+}
+
+.card {
+   flex: initial;
+   width: 32%;
+   max-width: 370px;
+   margin-bottom: 2rem;
+   padding: 1rem;
+}
+
+.card-title {
+   margin-bottom: 1.5rem;
+   font-weight: bold;
+   color: $primary;
+}
+
+.card-subtitle {
+   font-size: 1.3rem;
+   color: lighten($text-color, 20%);
+   font-weight: normal;
+}

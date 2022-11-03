@@ -1,0 +1,21 @@
+.button {
+   display: inline-block;
+   padding: 1.7rem 2.8rem;
+
+   border: 1px solid $primary;
+   border-radius: $border-radius;
+
+   font: 1.4rem $font-family-secondary;
+   font-weight: 800;
+   text-transform: uppercase;
+   color: $secondary;
+   background: $button-bg;
+   cursor: pointer;
+
+   &:hover {
+      text-decoration: none;
+      color: $primary;
+      border: 1px solid $primary;
+      background: $button-bg-hover;
+   }
+}
