@@ -2,17 +2,10 @@
 // Colors
 // ------------------------------------------------------------//
 
-$white: #ffffff;
-$gray: #eeeeee;
-$black: #000;
+$primary-color: #1fcdff;
+$secondary-color: #2f2f2f;
+$tertiary-color: #6f42c1;
 $text-color: #333333;
-$primary: #1fcdff;
-$secondary: #2f2f2f;
-$tertiary: #6f42c1;
-$success: #28a745;
-$info: #17a2b8;
-$warning: #ffc107;
-$danger: #f40003;
 
 // ------------------------------------------------------------//
 // Fonts
@@ -33,17 +26,16 @@ $h5-font-size: 1.6rem;
 // Links
 // ------------------------------------------------------------//
 
-$menu-link-color: $primary;
-$menu-link-color-hover: $secondary;
-$link-color: $primary;
-$link-color-hover: $secondary;
+$menu-link-color: $primary-color;
+$menu-link-color-hover: $secondary-color;
+$link-color: $primary-color;
+$link-color-hover: $secondary-color;
 
 // ------------------------------------------------------------//
 // Border
 // ------------------------------------------------------------//
 
-$border-color: #333;
-$border: 1px solid $border-color;
+$border: 1px solid #333;
 $border-radius: 5px;
 
 // ------------------------------------------------------------//
@@ -53,11 +45,11 @@ $border-radius: 5px;
 $table-border: $border;
 $table-border-radius: $border-radius;
 
-$table-bg-hover: rgba($black, 0.075);
+$table-bg-hover: rgba(#000, 0.075);
 $table-bg-active: $table-bg-hover;
 
-$table-head-color: $black;
-$table-head-bg: $gray;
+$table-head-color: #000;
+$table-head-bg: #333;
 
 $table-cell-padding: 0.5rem;
 
@@ -65,15 +57,15 @@ $table-cell-padding: 0.5rem;
 // Buttons
 // ------------------------------------------------------------//
 
-$button-bg: $primary;
-$button-bg-hover: $white;
-$button-border-color: $border;
+//$button-bg: $primary;
+//$button-bg-hover: $white;
+//$button-border-color: $border;
 
 // ------------------------------------------------------------//
 // Modal
 // ------------------------------------------------------------//
 
-$modal-bg: $white;
+$modal-bg: #fff;
 $modal-border-radius: $border-radius;
 
 // ------------------------------------------------------------//

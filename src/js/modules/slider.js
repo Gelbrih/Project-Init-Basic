@@ -15,9 +15,7 @@ export const slider = new Swiper('.swiper', {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
    },
-   mousewheel: {
-      invert: true,
-   },
+   mousewheel: false,
    autoplay: {
       delay: 3000,
    },
