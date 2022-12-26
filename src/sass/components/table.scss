@@ -1,4 +1,5 @@
 table {
+	width: 100%;
 	border-collapse: separate;
 	border-spacing: 0;
 	text-align: center;
@@ -17,7 +18,7 @@ th {
 
 th {
 	padding: 1rem;
-	background-color: $table-head-bg;
+	background-color: #cbcbcb;
 }
 
 tr:last-child td {

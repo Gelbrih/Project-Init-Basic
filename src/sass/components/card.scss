@@ -1,32 +1,17 @@
 .cards {
-   display: flex;
-   flex-flow: column wrap;
-   align-items: center;
-   text-align: center;
-
+   display: grid;
+   grid-template-columns: 1fr;
+   
+   @include mq(sm) {
+      grid-template-columns: repeat(2, 1fr);
+   }  
    @include mq(md) {
-      flex-flow: row nowrap;
-      justify-content: space-between;
-      align-items: baseline;
-   }
+      grid-template-columns: repeat(3, 1fr);
+   }   
 }
 
 .card {
-   flex: initial;
-   width: 32%;
-   max-width: 370px;
    margin-bottom: 2rem;
    padding: 1rem;
-}
-
-.card-title {
-   margin-bottom: 1.5rem;
-   font-weight: bold;
-   color: $primary-color;
-}
-
-.card-subtitle {
-   font-size: 1.3rem;
-   color: lighten($text-color, 20%);
-   font-weight: normal;
+   text-align: center;
 }

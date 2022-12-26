@@ -1,32 +1,11 @@
-<div class="swiper">
-   <div class="swiper-wrapper">
-      <div class="swiper-slide">
-         <img src="@images/slide-1.jpg" class="slide-image" alt="slide-1">
-         <div class="slide-content">
-            <h2 class="slide-title">Title1</h2>
-            <div class="slide-description">SliderDescriptionText1</div>
-            <button class="button">Learn more</button>
-         </div>
-      </div>
-      <div class="swiper-slide">
-         <img src="@images/slide-2.jpg" class="slide-image" alt="slide-2">
-         <div class="slide-content">
-            <h2 class="slide-title">Title2</h2>
-            <div class="slide-description">SliderDescriptionText2</div>
-            <button class="button">Learn more</button>
-         </div>
-      </div>
-      <div class="swiper-slide">
-         <img src="@images/slide-3.jpg" class="slide-image" alt="slide-3">
-         <div class="slide-content">
-            <h2 class="slide-title">Title1</h2>
-            <div class="slide-description">SliderDescriptionText3</div>
-            <button class="button">Learn more</button>
-         </div>
-      </div>
+<div class="swiper-slide">
+   <img src="@images/@@image.jpg" class="swiper-slide" alt="@@image">
+   <div class="swiper-content">
+      <h2 class="swiper-title">@@title</h2>\
+      @@if(subtitle !=='') {
+      <h3 class="swiper-subtitle">@@subtitle</h3>
+      }
+      <div class="swiper-description">@@desc</div>
    </div>
-   <div class="swiper-pagination"></div>
-
-   <div class="swiper-button-prev swiper-arrow"></div>
-   <div class="swiper-button-next swiper-arrow"></div>
 </div>
+<!-- end slide -->

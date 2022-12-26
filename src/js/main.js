@@ -15,7 +15,7 @@ import { slider } from "./modules/slider.js";
 // Counter
 //------------------------------------------------------------//
 
-import * as counter from "./modules/animated-counter.js";
+//import animatedCounter from "./modules/animated-counter.js";
 
 //------------------------------------------------------------//
 // Show Custom Elements

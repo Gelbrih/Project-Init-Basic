@@ -3,54 +3,12 @@ body {
 	height: 100%;
 }
 
-.page {
-	height: 100%;
-	margin: 0 auto;
-}
-
-.container {
-	width: 100%;
-	margin: 0 auto;
-	padding: 0 10px;
-	box-sizing: border-box;
-
-	@include mq(md) {
-		max-width: map_get($content-width, md);
-	}
-
-	@include mq(lg) {
-		max-width: map_get($content-width, lg);
-	}
-
-	@include mq(xl) {
-		max-width: map_get($content-width, xl);
-		padding-left: 15px;
-		padding-right: 15px;
-	}
-}
-
-.title {
-	margin: 0 0 15px 10px;
-	color: $secondary-color;
-}
-
-.subtitle {
-	margin: 0 0 10px 20px;
-	color: $secondary-color;
-}
-
 .inline {
 	display: inline !important;
 }
 
 .overflow-hidden {
 	overflow: hidden;
-}
-
-.flex-container {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
 }
 
 a {

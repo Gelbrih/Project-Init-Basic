@@ -1,13 +1,25 @@
-<div class="content-wrapper">
-   <div class="main-container">
-      <main class="main">
-         <div class="content">
-
+<main class="main">
+   <div class="content">
+      <div class="swiper">
+         <div class="swiper-wrapper">
+            @@loop('./../components/slider.html',[
+            {'image': 'slide-1', 'title': 'title', 'subtitle':'','desc' : 'description'},
+            {'image': 'slide-2', 'title': 'title', 'subtitle':'','desc' : 'description'},
+            {'image': 'slide-3', 'title': 'title', 'subtitle':'','desc' : 'description'},
+            ])
          </div>
-         <!-- end content -->
-      </main>
-      <!-- end main -->
-   </div>
+         <div class="swiper-button-prev"></div>
+         <div class="swiper-button-next"></div>
 
-</div>
-<!-- end content-wrapper -->
+         <div class="swiper-pagination"></div>
+      </div>
+      <!-- end slider swiper-slider -->
+      <div class="cards">
+         @@loop('./../components/cards.html',[
+         {'class': 'className', 'image': 'image-1', 'title': 'title', 'subtitle':'','desc' : 'description'},
+         ])
+      </div>
+   </div>
+   <!-- end content -->
+</main>
+<!-- end main -->

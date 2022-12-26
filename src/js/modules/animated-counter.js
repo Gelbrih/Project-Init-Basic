@@ -1,4 +1,4 @@
-export function animateCounter(elem, duration) {
+export default function animatedCounter(elem, duration) {
    const counters = elem.querySelectorAll('.counter-content');
 
    counters.forEach(counter => {
@@ -24,14 +24,14 @@ document.addEventListener('scroll', () => {
    counters.forEach(counterElement => {
       let scroll = counterElement.getBoundingClientRect().top - document.documentElement.clientHeight + counterElement.clientHeight / 2;
       if (scroll <= 0) {
-         animateCounter(counterElement, 800);
+         animatedCounter(counterElement, 800);
       }
    })
 })
 
 
 
-// export function animateCounter(elem, duration) {
+// export function animatedCounter(elem, duration) {
 //    const counters = document.querySelectorAll(`.${elem}`);
 
 //    counters.forEach(counter => {

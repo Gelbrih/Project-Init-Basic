@@ -1,5 +1,7 @@
 .menu {
-   margin: 0 0 10px 0;
+   display: flex;
+   flex-flow: row nowrap;
+   margin: 0 0 1rem 0;
    padding: 0;
    list-style: none;
 }
@@ -24,7 +26,7 @@
    width: 2.5rem;
    height: 2.5rem;
    float: right;
-   margin: -60px 1rem 2rem;
+   margin: -6rem 1rem 2rem;
 
    font-size: $font-size-base * 2;
    color: $menu-link-color;
